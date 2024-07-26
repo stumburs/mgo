@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-type Ngram map[string][]string
+type Ngram = map[string][]string
 
 type MarkovGenerator struct {
 	Ngrams     Ngram
