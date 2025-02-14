@@ -15,7 +15,10 @@ go get -v -u github.com/stumburs/mgo
 ```go
 package main
 
-import mgo "github.com/stumburs/mgo"
+import (
+	mgo "github.com/stumburs/mgo"
+	"fmt"
+)
 
 func main() {
 
@@ -34,7 +37,7 @@ func main() {
 	text := generator.GenerateText(100)
 
 	// Print the output
-	println(text)
+	fmt.Println(text)
 }
 ```
 
@@ -63,7 +66,10 @@ func main() {
 ```go
 package main
 
-import mgo "github.com/stumburs/mgo"
+import mgo (
+	"github.com/stumburs/mgo"
+	"fmt"
+)
 
 func main() {
 
@@ -74,7 +80,7 @@ func main() {
 
 	text := generator.GenerateText(100)
 
-	println(text)
+	fmt.Println(text)
 }
 ```
 
