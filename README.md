@@ -66,8 +66,8 @@ func main() {
 ```go
 package main
 
-import mgo (
-	"github.com/stumburs/mgo"
+import (
+	mgo "github.com/stumburs/mgo"
 	"fmt"
 )
 
